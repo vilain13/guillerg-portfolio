@@ -1,0 +1,48 @@
+@use "../../style/main.scss";
+
+
+.portfolio {
+
+    margin:1rem;
+
+
+    .portfolio-title {
+        background-color: #f3f3f3;
+    
+        padding-top: 3rem;
+        padding-bottom: 2rem;
+
+        h2 {
+            margin-bottom:0;
+            padding-bottom:1rem;
+        }
+
+        p{
+            padding-left: 3rem;
+        }
+
+        .portfolio-img {
+            margin-top:3rem;
+            display:flex;
+            justify-content:center;
+
+            img{
+                width:8%;
+            }
+        }
+    }   
+
+    .portfolio-list{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap:10px;
+        background-color: main.$background-color;
+        padding:1rem;
+        
+        border: black 2px solid;
+    }
+
+}
+

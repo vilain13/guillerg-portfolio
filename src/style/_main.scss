@@ -1,0 +1,41 @@
+$primary-color: black;
+$second-color: white;
+$background-color: #e3eeef;
+$second-background-color: #3cca98;
+$third-background-color: #cce2e3;
+
+
+
+body {
+    margin: 0;
+    color: $primary-color;
+    background-color: $background-color;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  h2 {
+    padding:3rem;
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1.3rem;
+    color:#7A7A7A
+  }
+
+  ul {
+    list-style:none;
+   
+  }
+
+  li {
+
+    a {
+      text-decoration:none;
+      color:white;
+    }
+
+  }
+
+
+ 

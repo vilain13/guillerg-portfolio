@@ -1,0 +1,78 @@
+[
+    {
+      "type": "FRONT-END", 
+      "title": "WORDPRESS",
+        "percentage": 85
+      },
+      {
+        "type": "FRONT-END",
+        "title": "HTML",
+        "percentage": 95
+      },
+    {
+      "type": "FRONT-END",
+      "title": "CSS  /SASS",
+      "percentage": 90
+    },
+    {
+      "type": "FRONT-END",
+      "title": "JAVASCRIPT",
+      "percentage": 70
+    },
+    {
+      "type": "FRONT-END",
+      "title": "REACT JS",
+      "percentage": 70
+    },
+    {
+      "type": "BACK-END",
+      "title": "PHP",
+      "percentage": 75
+    },
+    {
+      "type": "OUTILS DE DEVELOPPEMENT",
+      "title": "VSCODE",
+      "percentage": 90
+    },
+    {
+      "type": "OUTILS DE DEVELOPPEMENT",
+      "title": "GIT / GITHUB",
+      "percentage": 80
+    },
+    {
+      "type": "OUTILS DE DEVELOPPEMENT",
+      "title": "PHPMYADMIN",
+      "percentage": 75
+    },
+    {
+      "type": "SAVOIR ETRE",
+      "title": "ECOUTE",
+      "percentage": 100
+    },
+    {
+      "type": "SAVOIR ETRE",
+      "title": "REACTIVITE",
+      "percentage": 100
+    },
+    {
+      "type": "SAVOIR ETRE",
+      "title": "ORGANISATION",
+      "percentage": 90
+    },
+    {
+      "type": "SAVOIR ETRE",
+      "title": "CAPACITE D'ANALYSE",
+      "percentage": 85
+    },
+    {
+      "type": "SAVOIR ETRE",
+      "title": "CURIOSITE",
+      "percentage": 90
+    },
+    {
+      "type": "SAVOIR ETRE",
+      "title": "ENGAGEMENT",
+      "percentage": 100
+    }
+
+  ]

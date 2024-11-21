@@ -1,0 +1,12 @@
+@use "../../style/main.scss";
+
+
+footer p{
+    width:100%;
+    background-color:main.$primary-color;
+    color: main.$second-color;
+    padding: 15px 0;
+    font-size: 12px;
+    width: 100%;
+    text-align: center;
+}

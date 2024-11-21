@@ -1,0 +1,31 @@
+@use "../../style/main.scss";
+
+.e404 {
+    height:90vh;
+
+
+    .e404-img {
+        width:100%;
+        position: relative;
+        z-index:10;
+
+        img {
+            width:100%;
+            height:auto;
+        }
+    }
+
+    .e404-text {
+        position:absolute;
+        top:75%;
+        left:50%;
+        transform:translate(-50%);
+        z-index:20;
+        color:main.$second-color;
+        
+        h2{
+            font-size:2rem;
+        }
+    }
+
+}

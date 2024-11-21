@@ -1,0 +1,64 @@
+@use "../../style/main.scss";
+
+
+.competences-typewriter {
+    display:flex;
+    flex-direction:row;
+    font-size:2rem;
+    margin-top:3rem;
+    margin-left:1rem;
+    align-items:center;
+
+    #competences-title {
+        padding-right: 5px;
+    }
+}
+
+.competences-section {
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.technique, .etre {
+    display:flex;
+    flex-direction: column;;
+    justify-content: center;
+    width:28%;
+    margin:1rem;
+
+}
+
+.img-competences {
+    width:44%;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    img {
+        width:100%;
+        height: 550px;
+        object-fit: cover;
+    }
+}
+
+
+/* Media Query pour Tablette */
+@media (max-width: 1024px) {
+    .competences-section {
+        flex-direction: column;
+        justify-content: flex-start;
+
+        .technique, .etre {
+            width:90%;
+        }
+
+        .img-competences {
+            width:100%;
+            height: 300px;
+            margin:2%;
+            object-fit:contain;
+
+        }
+    }
+
+}

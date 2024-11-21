@@ -1,0 +1,32 @@
+.progress-bar {
+    margin-bottom: 1rem;
+  
+    &__track {
+      background-color: #D3CDCDCF;
+      overflow: hidden;
+      height: 24px;
+      position: relative;
+    }
+  
+    &__fill {
+      background-color: #69727d;;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      color: white;
+      font-weight: bold;
+      padding: 0 8px; // Espace intérieur de la barre
+      transition: width 2s ease-in-out; 
+    }
+  
+    &__title {
+      font-size: 0.7rem;
+    }
+  
+    &__percentage {
+      font-size: 0.7rem;
+      margin-right:1rem;
+    }
+  }
+  

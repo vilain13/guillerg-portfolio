@@ -1,0 +1,46 @@
+@use "../../style/main.scss";
+
+
+.project {
+    margin-top:2rem;
+    margin-left:7%;
+
+    .project-img {
+        width:60%;
+
+        img {
+            width:100%;
+        }
+    }
+
+    h2 {
+        padding:0;
+        text-transform: uppercase;
+    }
+
+    .project-button {
+        display:inline-block;
+        text-decoration:none;
+        margin-top:15px;
+        padding:10px 20px;
+        background-color: main.$second-background-color;
+        color:main.$second-color;
+        border-radius:5px;
+    }
+
+    p {
+        font-style:italic;
+    }
+
+    .project-competences {
+        padding-left:1rem;
+        border-left: 4px solid main.$second-background-color;
+        margin-left:3rem;
+
+        p{
+            font-style:italic;
+        }
+    }
+
+    
+}

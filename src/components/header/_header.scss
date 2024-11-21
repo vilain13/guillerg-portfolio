@@ -1,0 +1,134 @@
+@use "../../style/main.scss";
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    height:75px;
+    margin: auto;
+    background-color: main.$second-background-color;
+    padding: 0 7%;
+    align-items: center;
+    position: relative;
+
+    &__logo {
+        display: flex;
+        align-items: center;
+
+        &__link {
+            color: white;
+            font-size: 24px;
+            font-weight: 600;
+            text-decoration: none;
+            opacity: 0;
+            animation: logo-fade-in 3s forwards;
+            &:hover {
+               color:main.$primary-color;
+            }
+        }
+    }
+
+    &__nav {
+        &__list {
+            display: flex;
+            gap: 57px;
+            justify-content: flex-end;
+            align-items: center;
+
+            #nav-contact{
+                font-size: 24px;
+                &:hover {
+                    text-decoration:underline;
+                    color:white;
+                }
+            }
+
+            &__item {
+                font-size: 18px;
+
+                &__link {
+                    text-decoration: none;
+                    color: white;
+                    &:hover{
+                        color:black;
+                    }
+                }
+            }
+        }
+
+        &--open .header__nav__list {
+            //display: flex;
+            flex-direction: column;
+            justify-content:space-between;
+            align-items: end;
+            gap:15px;
+            width: 110px;
+            height:170px;
+            position: absolute;
+            right: 0;
+            top:100%;
+            background-color: main.$second-background-color;
+            z-index: 50;
+            margin:0;
+            padding:0px 10px 10px 0;
+
+           &__item {
+            font-size : 15px;
+        }
+        }
+    }
+
+    &__burger {
+        display: none;
+        flex-direction: column;
+        cursor: pointer;
+        gap: 4px;
+        z-index: 20;
+    }
+
+    &__burger__line {
+        width: 25px;
+        height: 3px;
+        background-color: white;
+        transition: transform 0.5s ease, opacity 0.5s ease;
+    }
+
+    /* Animation pour transformer le burger en croix */
+    .toggle .header__burger__line:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 5px);
+    }
+    .toggle .header__burger__line:nth-child(2) {
+        opacity: 0;
+    }
+    .toggle .header__burger__line:nth-child(3) {
+        transform: rotate(-45deg) translate(5px, -5px);
+    }
+}
+
+/* Media Query pour Tablette */
+@media (max-width: 1024px) {
+    .header__nav__list {
+        display: none;
+    }
+
+    .header__nav--open .header__nav__list {
+        display: flex;
+        
+    }
+    .header__burger {
+        display: flex;
+    }
+}
+
+
+/* Animation */
+@keyframes logo-fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+

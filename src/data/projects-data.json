@@ -1,0 +1,82 @@
+[
+    {
+        "id": "1",
+        "title": "Sophie Bluel",
+        "img": "/assets/img-projects/img-sbluel.webp",
+        "github": "https://github.com/vilain13/Portfolio-architecte-sophie-bluel",
+        "summary": "resume",
+        "context": "Voici le contexte ddu projet Kasa.",
+        "competences": [
+            "Competence 1",
+            "Competence 2",
+            "Competence 3",
+            "Competence 4",
+            "Competence 5"
+          ],
+          "developement": [
+            "/assets/util-icons/icon8-html.png",
+            "/assets/util-icons/icon8-css.png"
+          ]
+      },
+      {
+        "id": "2",
+        "title": "Ohmyfood",
+        "img": "/assets/img-projects/img-ohmyfood.webp",
+        "github":"https://github.com/vilain13/site-ohmyfood",
+        "summary": "resume",
+        "context": "Voisi le contexte du projet ArgentBank",
+        "competences": [
+          "Competence 1",
+          "Competence 2",
+          "Competence 3",
+          "Competence 4"
+          ],
+        "developement": [
+          "/assets/util-icons/icon8-html.png",
+          "/assets/util-icons/icon8-css.png",
+          "/assets/util-icons/icon8-sass.png"
+        ]
+      },
+    {
+        "id": "3",
+        "title": "Kasa",
+        "img": "/assets/img-projects/img-kasa.webp",
+        "github":"https://github.com/vilain13/site-kasa",
+        "summary": "resume",
+        "context": "Voisi le contexte du projet Sophie Bluel",
+        "competences": [
+          "Competence 1",
+          "Competence 2",
+          "Competence 3"
+          ],
+        "developement": [
+          "/assets/util-icons/icon8-html.png",
+          "/assets/util-icons/icon8-css.png",
+          "/assets/util-icons/icon8-sass.png",
+          "/assets/util-icons/icon8-javascript.png"
+        ]
+      },
+      {
+        "id": "4",
+        "title": "ArgentBank",
+        "img": "/assets/img-projects/img-argentbank1.webp",
+        "github":"https://github.com/vilain13/ArgentBank-website",
+        "summary": "resume",
+        "context": "Voisi le contexte du projet Sophie Bluel",
+        "competences": [
+          "Competence 1",
+          "Competence 2",
+          "Competence 3",
+          "Competence 4",
+          "Competence 5"
+          ],
+        "developement": [
+          "/assets/util-icons/icon8-html.png",
+          "/assets/util-icons/icon8-css.png",
+          "/assets/util-icons/icon8-sass.png",
+          "/assets/util-icons/icon8-react.png",
+          "/assets/util-icons/icon8-redux.png"
+        ]
+      }
+     
+  ]
